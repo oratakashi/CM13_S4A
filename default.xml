@@ -22,16 +22,16 @@
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CyanogenMod/android" />
-  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <project path="android" name="https://github.com/CyanogenMod/android" />
+  <project path="abi/cpp" name=https://github.com/"CyanogenMod/android_abi_cpp" groups="pdk" />
+  <project path="art" name="https://github.com/CyanogenMod/android_art" groups="pdk" />
+  <project path="bionic" name="https://github.com/CyanogenMod/android_bionic" groups="pdk" />
+  <project path="bootable/recovery" name="https://github.com/CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
-  <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="dalvik" name="https://github.com/CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
+  <project path="development" name="https://github.com/CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
+  <project path="device/generic/arm64" name="https://github.com/CyanogenMod/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
