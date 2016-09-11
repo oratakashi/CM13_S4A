@@ -23,7 +23,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="https://github.com/CyanogenMod/android" />
-  <project path="abi/cpp" name=https://github.com/"CyanogenMod/android_abi_cpp" groups="pdk" />
+  <project path="abi/cpp" name="https://github.com/CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="https://github.com/CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="https://github.com/CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="https://github.com/CyanogenMod/android_bootable_recovery" groups="pdk" />
